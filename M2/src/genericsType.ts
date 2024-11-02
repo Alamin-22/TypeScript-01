@@ -27,7 +27,7 @@
 
   const booleanArray2: GenericArray<boolean> = [true, false, false, true];
 
-  //   another example
+  //   another example with Interface
 
   interface UserInterface {
     // this is not type alias, this is Interface and Interface and type alas work  kind of same  but there has a few differences
