@@ -1,5 +1,5 @@
 {
-  // interface-type-vs-interface
+  // interface-type-vs-Type Alias
 
   type UserAlias = {
     // => this is how we can define a Object type with the help of type Alias
