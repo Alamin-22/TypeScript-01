@@ -21,7 +21,7 @@
   // mapped type with Generic
   //  T => {height:string, width:number}
   type AreaString<T> = {
-    [key in keyof T]: T[key]; // => we have to focus on it carefully. 
+    [key in keyof T]: T[key]; // => we have to focus on it carefully.
   };
 
   const areaOfMyRoom: AreaString<{ height: string; width: number }> = {
