@@ -28,7 +28,8 @@
   }
 
   const GetUser = (user: UserType | AdminUser) => {
-    if ("role" in user && "secretId" in user) {
+    if ("role" in user && "secretId" in user) { //=> This is called (In Guard)
+
       console.log(
         `This User Name is ${user.name} and the role of the user is  ${user.role}`
       );
@@ -49,7 +50,6 @@
     secretId: "2024@Admin",
   };
 
-//   const User1 = GetUser(User);
+  //   const User1 = GetUser(User);
   const User2 = GetUser(SupperUser);
-
 }
