@@ -16,7 +16,7 @@
     StudentOf: string;
     age: number;
     Company: string;
-    Salary?: number;
+    Salary?: number; //=> it is also called nullable or Optional
   };
 
   //   external Type type for a object
@@ -31,4 +31,6 @@
   const Person1Updated = { ...person1, salary: 1000000 };
 
   console.log(Person1Updated);
+
+  //   rest Operator
 }
